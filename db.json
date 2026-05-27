@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "React Conference 2024",
+      "description": "Annual React developers conference",
+      "category": "Technology",
+      "date": "2024-07-15",
+      "time": "09:00 AM",
+      "location": "San Francisco, CA",
+      "venue": "Convention Center",
+      "image": "https://via.placeholder.com/400x200",
+      "organizerName": "Tech Events Inc",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 99, "available": 100 },
+        { "id": "2", "name": "VIP", "price": 299, "available": 20 }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "user1",
+      "eventId": "1",
+      "eventTitle": "React Conference 2024",
+      "eventDate": "2024-07-15",
+      "tickets": [
+        { "type": "General", "quantity": 2, "price": 99 }
+      ],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 198,
+      "status": "confirmed",
+      "bookingDate": "2024-02-01",
+      "referenceNumber": "BK123456"
+    }
+  ]
+}
